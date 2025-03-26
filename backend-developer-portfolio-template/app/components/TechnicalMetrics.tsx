@@ -15,96 +15,43 @@ export default function TechnicalMetrics() {
 					<div>
 						<h3 className="text-xl font-semibold mb-6 text-green-400">System Performance</h3>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-							<motion.div
-								initial={{ opacity: 0, scale: 0.95 }}
-								whileInView={{ opacity: 1, scale: 1 }}
-								viewport={{ once: true }}
-								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
-							>
+							<motion.div className="bg-gray-800/50 rounded-lg p-6 border border-gray-700">
 								<h4 className="text-lg font-semibold text-gray-300">API Gateway</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• P95 latency reduced from 250ms to 80ms</li>
-									<li>• 99.99% availability achieved</li>
-									<li>• Handles 2M requests/day</li>
+									<li>• Optimized API endpoints</li>
+									<li>• Studied API monitoring techniques</li>
+									<li>• Conducted performance tests with 1000+ requests</li>
 								</ul>
 							</motion.div>
-							<motion.div
-								initial={{ opacity: 0, scale: 0.95 }}
-								whileInView={{ opacity: 1, scale: 1 }}
-								viewport={{ once: true }}
-								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
-							>
+							<motion.div className="bg-gray-800/50 rounded-lg p-6 border border-gray-700">
 								<h4 className="text-lg font-semibold text-gray-300">Database Optimization</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Query response time improved by 70%</li>
-									<li>• Implemented efficient indexing strategy</li>
-									<li>• Reduced DB load by 45%</li>
+									<li>• Analyzed SQL query performance</li>
+									<li>• Assisted in implementing indexing strategies</li>
+									<li>• Helped reduce database load</li>
 								</ul>
 							</motion.div>
 						</div>
 					</div>
 
-					{/* Infrastructure & DevOps */}
+					{/* Security & Compliance */}
 					<div>
-						<h3 className="text-xl font-semibold mb-6 text-green-400">Infrastructure & DevOps</h3>
+						<h3 className="text-xl font-semibold mb-6 text-green-400">Security & Compliance</h3>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-							<motion.div
-								initial={{ opacity: 0, scale: 0.95 }}
-								whileInView={{ opacity: 1, scale: 1 }}
-								viewport={{ once: true }}
-								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
-							>
-								<h4 className="text-lg font-semibold text-gray-300">Cloud Infrastructure</h4>
+							<motion.div className="bg-gray-800/50 rounded-lg p-6 border border-gray-700">
+								<h4 className="text-lg font-semibold text-gray-300">Authentication & Authorization</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Reduced AWS costs by 35%</li>
-									<li>• Implemented auto-scaling for 20+ services</li>
-									<li>• Zero-downtime deployments</li>
+									<li>• Implemented JWT-based authentication</li>
+									<li>• Studied role-based access control (RBAC)</li>
+									<li>• Assisted in securing API endpoints</li>
 								</ul>
 							</motion.div>
-							<motion.div
-								initial={{ opacity: 0, scale: 0.95 }}
-								whileInView={{ opacity: 1, scale: 1 }}
-								viewport={{ once: true }}
-								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
-							>
-								<h4 className="text-lg font-semibold text-gray-300">CI/CD Pipeline</h4>
+							<motion.div className="bg-gray-800/50 rounded-lg p-6 border border-gray-700">
+								<h4 className="text-lg font-semibold text-gray-300">Vulnerability Assessment</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Reduced deployment time by 65%</li>
-									<li>• Automated testing coverage at 90%</li>
-									<li>• Integration tests success rate 99.5%</li>
-								</ul>
-							</motion.div>
-						</div>
-					</div>
-
-					{/* Development & Leadership */}
-					<div>
-						<h3 className="text-xl font-semibold mb-6 text-green-400">Development & Leadership</h3>
-						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-							<motion.div
-								initial={{ opacity: 0, scale: 0.95 }}
-								whileInView={{ opacity: 1, scale: 1 }}
-								viewport={{ once: true }}
-								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
-							>
-								<h4 className="text-lg font-semibold text-gray-300">Code Quality</h4>
-								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Led adoption of TypeScript across backend</li>
-									<li>• Established coding standards</li>
-									<li>• Reduced technical debt by 40%</li>
-								</ul>
-							</motion.div>
-							<motion.div
-								initial={{ opacity: 0, scale: 0.95 }}
-								whileInView={{ opacity: 1, scale: 1 }}
-								viewport={{ once: true }}
-								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
-							>
-								<h4 className="text-lg font-semibold text-gray-300">Team Impact</h4>
-								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Mentored 4 junior developers</li>
-									<li>• Created 30+ technical documentation guides</li>
-									<li>• Led 3 major system migrations</li>
+									<li>• Conducted basic security audits</li>
+									<li>• Learned about common OWASP vulnerabilities</li>
+									<li>• Assisted in patching security flaws</li>
 								</ul>
 							</motion.div>
 						</div>

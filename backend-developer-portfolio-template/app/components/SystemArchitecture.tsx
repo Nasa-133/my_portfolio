@@ -28,22 +28,22 @@ export default function SystemArchitecture() {
 							description: 'Built a scalable e-commerce platform supporting secure payments and real-time order tracking.',
 							details: [
 								'Developed with Django and MySQL for scalable data storage',
-								'Integrated Stripe API for secure payments',
+								'Optimized queries for fast response times',
 								'Implemented user authentication with Django Allauth',
 								'Deployed on AWS using EC2 and S3 for media storage',
 							],
-							tech: ['Django', 'MySQL', 'AWS EC2', 'S3', 'Stripe API'],
+							tech: ['Django', 'MySQL', 'AWS EC2', 'S3'],
 						},
 						{
-							title: 'Interactive Portfolio with React & Tailwind',
-							description: 'Created a personal portfolio website with modern UI/UX and smooth animations.',
+							title: 'Design Patterns & Scalable Architecture',
+							description: 'Applied fundamental design patterns to enhance maintainability and scalability of backend services.',
 							details: [
-								'Designed responsive UI with HTML, CSS, and Tailwind CSS',
-								'Added dynamic content using React and Next.js',
-								'Optimized performance with lazy loading and image optimization',
-								'Deployed using Vercel for fast global access',
+								'Used Repository Pattern for database abstraction',
+								'Implemented Factory Pattern for object creation',
+								'Followed SOLID principles for clean architecture',
+								'Optimized system performance with caching strategies',
 							],
-							tech: ['React', 'Next.js', 'Tailwind CSS', 'Vercel'],
+							tech: ['Design Patterns', 'SOLID Principles', 'Backend Architecture'],
 						},
 					].map((project, index) => (
 						<motion.div
